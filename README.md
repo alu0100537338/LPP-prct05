@@ -10,11 +10,11 @@ Enunciado: parte 1
 
     2) En esta tarea escriba la respuesta a las siguientes preguntas:
 
-      2.1.) ¿Cuál es el error en el código del método para calcular el máximo común divisor?
+      2.1) ¿Cuál es el error en el código del método para calcular el máximo común divisor?
 
-      2.2.) ¿Qué comandos del depurador utilizó para detectarlo? Describa la sesión de depuración.
+      2.2) ¿Qué comandos del depurador utilizó para detectarlo? Describa la sesión de depuración.
 
-      2.3.) Escriba la dirección 'HTTP' del repositorio que contiene el desarrollo de su práctica.
+      2.3) Escriba la dirección 'HTTP' del repositorio que contiene el desarrollo de su práctica.
     
 Resolucion
 ----------
