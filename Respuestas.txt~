@@ -1,7 +1,0 @@
-2.1. En la linea 3, al no ser v == 0, salta directamente a mostrar v, por lo que para que realmente haga uso de la funcion del programa,
-     debemos poner v != 0.
-
-2.2. Poniendo un breakpoint en la linea 3 (while) y mirando el contenido de u y v en ese momento, se comprueba que no se efectua el uso
-     de la funcion.
-
-
