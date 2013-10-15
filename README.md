@@ -33,16 +33,16 @@ Enunciado: parte 2
 Resolucion
 ----------
 
-    Se han añadido al archivo 'racional.rb' los metodos necesarios para mostrar, sumar,
-    restar, multiplicar y dividir, ademas de dos metodos adicionales para realizar el
-    Minimo Comun Multipli necesario para las operaciones, y otro para automatizar
-    la reduccion del numero racional a su expresion minima.
+    Se han añadido al archivo 'racional.rb' los metodos necesarios para mostrar, sumar, restar, 
+    multiplicar y dividir, ademas de dos metodos adicionales para realizar el Minimo Comun Multiplo
+    necesario para las operaciones, y otro para automatizar la reduccion del numero racional a su 
+    expresion minima.
   
 
 Enunciado: parte 3
 ------------------
 
-    Implemente un conjunto de Pruebas Unitarias que permitan comprobar el correcto funcionamiento de la clase que 
-    implementa a los números racionales.
+    Implemente un conjunto de Pruebas Unitarias que permitan comprobar el correcto funcionamiento de 
+    la clase que implementa a los números racionales.
 
 
