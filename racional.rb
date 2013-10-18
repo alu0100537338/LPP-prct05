@@ -108,7 +108,7 @@ class Fraccion
 		num *= @denom
 		denom *= @num
 		
-		a, b = reduc_num(num, denom)
+		a, b = reduc_num(denom, num)
 		
 		return a, b
 	end
