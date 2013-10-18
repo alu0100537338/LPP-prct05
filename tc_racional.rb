@@ -8,6 +8,8 @@ class TestFraccion < Test::Unit::TestCase
 		assert_equal("(8/5)", Fraccion.new(8, 5).to_s)
 	end
 	
-	
+	def test_suma
+		assert_equal("(8/2)", Fraccion.new().suma)
+	end
 
 end
