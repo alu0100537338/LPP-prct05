@@ -35,8 +35,8 @@ class Fraccion
 			
 			a, b = reduc_num(@num, @denom)
 		else
-			denom_aux = min_comun(b, denom)
-			num_aux = ((denom_aux / b) * a) + ((denom_aux / denom) * num)
+			denom_aux = min_comun(@denom, denom)
+			num_aux = ((denom_aux / @denom) * @num) + ((denom_aux / denom) * num)
 			
 			a, b = reduc_num(num_aux, denom_aux)
 		end

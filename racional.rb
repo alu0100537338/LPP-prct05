@@ -74,13 +74,13 @@ class Fraccion
 		if (@denom == denom)
 			@num -= num
 		else
-			denom_aux = min_comun(@b, denom)
-			num_aux = ((denom_aux / @b) * @a) - ((denom_aux / denom) * num)
+			denom_aux = min_comun(@denom, denom)
+			num_aux = ((denom_aux / @denom) * @num) - ((denom_aux / denom) * num)
 			
-			@a, @b = reduc_num(num_aux, denom_aux)
+			a, b = reduc_num(num_aux, denom_aux)
 		end
 		
-		return @a, @b 
+		return a, b 
 	end
 	
 	
@@ -90,12 +90,12 @@ class Fraccion
 	def producto(arg1, arg2)
 		num, denom = reduc_num(arg1, arg2)
 		
-		num *= @a
-		denom *= @b
+		num *= @num
+		denom *= @denom
 		
-		@a, @b = reduc_num(num, denom)
+		a, b = reduc_num(num, denom)
 		
-		return @a, @b
+		return a, b
 	end
 	
 	
@@ -105,12 +105,12 @@ class Fraccion
 	def division(arg1, arg2)
 		num, denom = reduc_num(arg1, arg2)
 		
-		num *= @b
-		denom *= @a
+		num *= @denom
+		denom *= @num
 		
-		@a, @b = reduc_num(num, denom)
+		a, b = reduc_num(num, denom)
 		
-		return @a, @b
+		return a, b
 	end
 
 end
