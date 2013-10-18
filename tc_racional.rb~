@@ -13,11 +13,5 @@ class TestFraccion < Test::Unit::TestCase
 		assert_equal([65, 18], Fraccion.new(10, 9).suma(5, 2))
 		assert_equal([3, 1], Fraccion.new(2, 1).suma(1, 1))
 	end
-	
-	def
-		assert_equal([,], Fraccion.new(,).resta(,))
-		assert_equal([,], Fraccion.new(,).resta(,))
-		assert_equal([,], Fraccion.new(,).resta(,))
-	end
 
 end
