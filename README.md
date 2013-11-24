@@ -44,5 +44,13 @@ Enunciado: parte 3
 
     Implemente un conjunto de Pruebas Unitarias que permitan comprobar el correcto funcionamiento de 
     la clase que implementa a los números racionales.
+    
 
+Resolucion
+----------
 
+    Se ha creado el archivo 'tc_racional.rb' donde se han implementado 3 test para cada metodo de la 
+    clase.
+    
+--------------------------------------------------------------------------------------------------------------
+Jessica A. Ramos Villarreal - ETSII-ULL
